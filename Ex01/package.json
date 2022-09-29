@@ -1,0 +1,15 @@
+{
+  "name": "ex01",
+  "version": "1.0.0",
+  "description": "Crea un nuevo proyecto de Node, y dentro del package.json crea un script que muestre por pantalla \"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo\".",
+  "main": "index.js",
+  "scripts": {
+    "Saludo":"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ex01"
+  ],
+  "author": "Alberto Parra Toval",
+  "license": "ISC"
+}

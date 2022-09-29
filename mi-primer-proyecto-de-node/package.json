@@ -1,0 +1,16 @@
+{
+  "name": "mi-primer-proyecto-de-node",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de Javascript con Node en Open BootCamp",
+  "main": "index.js",
+  "scripts": {
+    "saludar":"node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1" 
+  },
+  "keywords": [
+    "holamundo",
+    "first project"
+  ],
+  "author": "Alberto Parra Toval",
+  "license": "ISC"
+}
