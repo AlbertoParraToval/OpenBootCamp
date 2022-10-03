@@ -1,20 +1,21 @@
-//Casos muy específicos - break, continue
-let lista = [1,2,3,4,5,6,7,8];
 
-for(var i = 0; i < lista.length; i++){
-  if(lista[i] === 3){
-    continue; //Lo que hace es reiniciarlo
-  }  
-  var j = 50;
-  const k = 100;
-  console.log(k);
-  console.log(lista[i]);
 
-  if (lista[i] > 5) {
-    break; //Skipear todo lo demas
+  let unidades = 0;
+  let decenas = 0;
+  bucledecenas: while (true) {
+    bucleUnidades: while (true) {
+      console.log(`El numero actual es: ${decenas} ${unidades} `);
+      unidades++;
+      if (unidades == 10) {
+        unidades = 0;
+        break bucleUnidades;
+      }
+      if (decenas == 2) {
+        break bucledecenas;
+      }
+    }
+    decenas++;
   }
-}
+  console.log("Ya hemos terminado")
 
-//Cual es el ámbito de un bucle
-console.log(i);
-console.log(j);
+
