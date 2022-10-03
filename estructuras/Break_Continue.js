@@ -1,5 +1,3 @@
-
-
   let unidades = 0;
   let decenas = 0;
   bucledecenas: while (true) {
